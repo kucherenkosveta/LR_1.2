@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  2
-//
-//  Created by :) on 22.10.2022.
-//
-
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
