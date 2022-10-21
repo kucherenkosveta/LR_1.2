@@ -5,11 +5,11 @@ using namespace std;
 
 int main()
 {
-  int number;
+  int a;
   cout << "Введите число: ";
-  cin >> number;
+  cin >> a;
   cin.ignore();
-  cout << "Вы ввели: "<< number <<"\n";
+  cout << "Вы ввели: "<< a <<"\n";
   cin.get();
 }
 
