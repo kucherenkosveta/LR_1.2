@@ -1,7 +1,16 @@
 #include <iostream>
+#include <locale.h>
+
 using namespace std;
-int main() {
-    cout << "Hello, World!\n";
-    cout << "LR_1.2\n";
-    return 0;
+
+int main()
+{
+  int number;
+  setlocale(LC_CTYPE,"Russian");
+  cout << "Введите число: ";
+  cin >> number;
+  cin.ignore();
+  cout << "Вы ввели: "<< number <<"\n";
+  cin.get();
 }
+
